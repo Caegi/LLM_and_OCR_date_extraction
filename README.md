@@ -14,13 +14,10 @@ Responding to the above problematics, we present:
 
 # Highlights of the work:
 
-    Better quality OCR(we used the best-performing open-source OCR model we found: PaddleOCR by Baidu China), especially effective for keeping and recognizing the dates of irregular font/format
-
-    A benchmark dataset strictly annotated by our native French members following a set of reasonable and consistent annotation rules(see evaluation part), including the most challenging examples
-
-    Economize the computation of LLM while keeping good performance with a highly efficient input: NER Dates with their contexutal characters of the doc's first pages and final pages
-
-    Utilize the prompting(few-shot learning and simple CoT) to refine LLM(Qwen)'s inference and further compensente inevitable OCR flaws
+- Better quality OCR(we used the best-performing open-source OCR model we found: PaddleOCR by Baidu China), especially effective for keeping and recognizing the dates of irregular font/format
+- A benchmark dataset strictly annotated by our native French members following a set of reasonable and consistent annotation rules(see evaluation part), including the most challenging examples
+- Economize the computation of LLM while keeping good performance with a highly efficient input: NER Dates with their contexutal characters of the doc's first pages and final pages
+- Utilize the prompting(few-shot learning and simple CoT) to refine LLM(Qwen)'s inference and further compensente inevitable OCR flaws
 
 # Result
 Compared with the Datapolitcs baseline, our predictor shows obvious performance improvement(more than 10% on our challenge benchmark dataset and more than 5% on the class's collaborative annotation dataset, see the Evaluation part)
