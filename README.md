@@ -6,7 +6,7 @@ Through carefuly analysis of the baseline solution and our own experimentations,
 
 -Lack of a benchmark dataset and a set of consistent annotation rules with high-quality human annotation on which to test and improve the predictor.
 
--Economize the computation of LLM's inference by giving as the input only most relevant informations
+-Economize the computation of LLM's inference by giving as the input only most relevant information
 
 -Fully utilize the LLM's knowledge to make a good judgement among several possible dates and even correct some OCR errors
 
